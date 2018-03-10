@@ -9,13 +9,6 @@ ApplicationWindow {
     height: 480
     title: qsTr("ProjectManenger by S.D.")
 
-
-    ListModel {
-        id: myModel
-        ListElement { title: "Dog"; content: "8" }
-        ListElement { title: "Cat"; content: "5" }
-    }
-
     XmlListModel {
         id: xmlNotes
         source: "file:///home/sd/other-projects/ProjectManenger/ProjectManenger/Evernote.enex.xml"
